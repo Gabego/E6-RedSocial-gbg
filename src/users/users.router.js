@@ -5,7 +5,7 @@ const followServices = require('../folows/follows.services')
 
 const passportJWT = require('../middlewares/auth.middleware')
 const roleMiddleware= require('../middlewares/role.middleware')
-const { use } = require('chai')
+
 
 router.route('/')
     .get(userServices.getAllUsers)
